@@ -27,7 +27,6 @@ As of the http handling, Go's net/http library create a copy of api/service to h
 After cloning run these commands.
 
 ```
-
 go mod download
 
 make
@@ -35,7 +34,6 @@ make
 bash db.sh
 
 ./build/inv server
-
 ```
 
 ---
@@ -48,7 +46,7 @@ Everything on Replit is ready to go. All you need to do is press "Run".
 
 This is only a server so you will have to use curl to make requests :)
 
-This can be achieve forking the repl to your account and run curl in the shell. Some example commands our below.
+This can be achieved by forking the repl to your account and run curl in the shell. Some example commands our below.
 
 After clicking run and wait for the "Listening on localhost:8081" message.
 
