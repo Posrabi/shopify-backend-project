@@ -18,6 +18,8 @@ Any errors occurred during execution will be automatically log into stderr. I al
 
 As of the http handling, Go's net/http library create a copy of api/service to handle every new incoming request.
 
+---
+
 # Build instructions from source:
 
 After cloning run these commands.
