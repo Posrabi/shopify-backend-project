@@ -38,7 +38,7 @@ bash db.sh
 
 # On Replit:
 
-[Link to Replit][https://replit.com/@posrabi/shopify-backend-project-2#makefile]
+[Link to Replit](https://replit.com/@posrabi/shopify-backend-project-2#makefile)
 
 Everything on Replit is ready to go. All you need to do is press "Run".
 
@@ -86,7 +86,6 @@ An important side note about replit, if you somehow accidentally press stop, to 
 
 ```
 pg_ctl stop
-
 ```
 
 And then reload the page or there would be some pretty nasty port conflicts coming from postgres not correctly stopped.
