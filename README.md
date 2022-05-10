@@ -50,21 +50,21 @@ Try these commands in the shell
 
 ```
 
-Create:
+> Create:
 
 curl localhost:8081/create --data '{"item_id":"1","brand":"something","item_name":"test item","item_quantity":10}'
 
-List:
+> List:
 
 curl localhost:8081/list
 
-Edit:
+> Edit:
 
 curl localhost:8081/edit --data '{"item_id":"1","brand":"nothing","item_name":"test item 1","item_quantity":50}'
 
-Delete: This uses query params not JSON
+> Delete: This uses query params not JSON
 
-curl localhost:8081/delete?id=1 --request DELETE
+> curl localhost:8081/delete?id=1 --request DELETE
 
 Ship:
 
