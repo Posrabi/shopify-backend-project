@@ -6,6 +6,8 @@ An inventory tracking app mainly with CRUD operations -> ideal for SQL databases
 
 For the current requirements, a SQLite or any lightweight SQL database will do it. But if we want to scale better later on, we should use something "heavier" like MySQL, Postgres (which is what I've chosen here) or MSSQL.
 
+I chose the ability to make shipments as my remaining requirement.
+
 **_Architecture:_**
 
 HTTP handlers and servers commands are defined src/inv/cmd. These will then call the invService in pkg.
